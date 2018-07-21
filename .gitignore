@@ -8,7 +8,7 @@
 *.sln.docstates
 env/
 x/
-x.txt
+x.dll
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
