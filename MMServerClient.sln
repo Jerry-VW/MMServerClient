@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMServer", "MMServerClient\MMServerClient.vcxproj", "{17272F7B-6EED-4F8C-9289-4FF578A97ACF}"
-EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MMClient", "MMClient\MMClient.pyproj", "{960E7729-3DC6-4203-854F-CCAA91CBF0D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MMServer", "MMServer\MMServer.vcxproj", "{88CAF6E6-F7FF-4440-976A-F5E5582590D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +17,22 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Debug|x64.ActiveCfg = Debug|x64
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Debug|x64.Build.0 = Debug|x64
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Debug|x86.ActiveCfg = Debug|Win32
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Debug|x86.Build.0 = Debug|Win32
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Release|Any CPU.ActiveCfg = Release|Win32
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Release|x64.ActiveCfg = Release|x64
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Release|x64.Build.0 = Release|x64
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Release|x86.ActiveCfg = Release|Win32
-		{17272F7B-6EED-4F8C-9289-4FF578A97ACF}.Release|x86.Build.0 = Release|Win32
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Release|x64.ActiveCfg = Release|Any CPU
 		{960E7729-3DC6-4203-854F-CCAA91CBF0D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Debug|x64.ActiveCfg = Debug|x64
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Debug|x64.Build.0 = Debug|x64
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Debug|x86.Build.0 = Debug|Win32
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Release|x64.ActiveCfg = Release|x64
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Release|x64.Build.0 = Release|x64
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Release|x86.ActiveCfg = Release|Win32
+		{88CAF6E6-F7FF-4440-976A-F5E5582590D5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
