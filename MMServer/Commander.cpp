@@ -24,7 +24,8 @@ Commander::Commander() {
 	hDLL = LoadLibrary(L"vbmms.dll");
 	if (hDLL == NULL) {
 		printf("lib load failed.\n");
-	} else {
+	}
+	else {
 		printf("Dll loaded.\n");
 	}
 }
@@ -92,4 +93,5 @@ int Commander::senseRightWall() {
 int Commander::senseGoal() {
 	return ((dllIntVoid)GetProcAddress(hDLL, "InputGL"))();
 }
+
 // END OF FILE

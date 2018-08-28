@@ -40,7 +40,7 @@ public:
 
 private:
 	HINSTANCE hDLL;
-	const typedef void(CALLBACK* dllVoidVoid)(void);// void fun(void)
-	const typedef void(CALLBACK* dllVoidInt)(short);// void fun(short)
-	const typedef short(CALLBACK* dllIntVoid)(void);// short fun(void)
+	const typedef void (CALLBACK* dllVoidVoid)(void); // void fun(void)
+	const typedef void (CALLBACK* dllVoidInt)(short); // void fun(short)
+	const typedef short (CALLBACK* dllIntVoid)(void); // short fun(void)
 };

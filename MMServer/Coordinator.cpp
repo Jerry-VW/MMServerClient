@@ -110,7 +110,8 @@ bool Coordinator::acceptConnection() {
 		closesocket(listenSocket);
 		WSACleanup();
 		return false;
-	} else {
+	}
+	else {
 		return true;
 	}
 }
@@ -157,7 +158,8 @@ int Coordinator::serve() {
 		closesocket(clientSocket);
 		WSACleanup();
 		return -1;
-	} else if (iResult == 0) {
+	}
+	else if (iResult == 0) {
 		// Client connection is closed
 		iResult = shutdown(clientSocket, SD_SEND);
 		if (iResult == SOCKET_ERROR) {
@@ -313,4 +315,5 @@ int Coordinator::serve() {
 	}
 	return iResult;
 }
+
 // END OF FILE
